@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -64,15 +65,21 @@
                                     <segue destination="rYW-ML-mtI" kind="show" id="bIb-S7-lFe"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ni-op-0I1">
+                                <rect key="frame" x="75" y="665" width="98" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.52175841039540816" blue="0.2039543881517451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="cfm-TH-naN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="962" y="-680"/>
+            <point key="canvasLocation" x="961.53846153846155" y="-680.33175355450237"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ewg-Mu-qX2">
@@ -91,7 +98,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XL1-Wt-KFD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="L5D-F8-5Sa"/>
                 </viewController>
@@ -116,7 +123,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4S7-tU-xWR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="fes-vD-2WB"/>
                 </viewController>
@@ -141,7 +148,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hhO-6F-HPD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="8cY-kP-42c"/>
                 </viewController>
@@ -172,7 +179,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="j8P-Jj-J6G"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="hQQ-zJ-1La" firstAttribute="centerY" secondItem="NIv-5j-oxf" secondAttribute="centerY" id="ULA-wH-vyn"/>
                             <constraint firstItem="hQQ-zJ-1La" firstAttribute="centerX" secondItem="NIv-5j-oxf" secondAttribute="centerX" id="WbL-NC-0el"/>
@@ -200,7 +207,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c3D-ux-hbB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="7an-Ku-MkC" firstAttribute="centerY" secondItem="9Wb-eG-dCK" secondAttribute="centerY" id="eIp-97-Mfx"/>
                             <constraint firstItem="7an-Ku-MkC" firstAttribute="centerX" secondItem="9Wb-eG-dCK" secondAttribute="centerX" id="eo1-VE-cZt"/>
@@ -218,6 +225,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gKh-ky-CnH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lhy-dR-r1q">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -239,7 +247,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="DnB-83-NPI"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" name="AccentColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="CFy-9Q-fPF"/>
                 </viewController>
@@ -264,7 +273,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pn2-lx-KjK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.25882352941176467" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="iuG-cK-5bt"/>
                 </viewController>
@@ -329,7 +338,6 @@
         <!--Navigation Controller-->
         <scene sceneID="LPO-YL-VGQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuW-y4-1CA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L0e-y1-azw" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="more" id="EsM-QC-o8c"/>
                     <toolbarItems/>
@@ -342,11 +350,15 @@
                         <segue destination="weN-Ru-Mp5" kind="relationship" relationship="rootViewController" id="XK0-ju-bgz"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuW-y4-1CA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="185" y="1073"/>
         </scene>
     </scenes>
     <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
