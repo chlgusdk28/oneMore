@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0F718125D4252300607701 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 7C0F718025D4252300607701 /* readme */; };
 		7C48C88C25D41647009DCF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48C88B25D41647009DCF4E /* AppDelegate.swift */; };
 		7C48C88E25D41647009DCF4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48C88D25D41647009DCF4E /* SceneDelegate.swift */; };
 		7C48C89025D41647009DCF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48C88F25D41647009DCF4E /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		205B39C8E9A5BD557DDC8A0E /* Pods-OneMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMore.release.xcconfig"; path = "Target Support Files/Pods-OneMore/Pods-OneMore.release.xcconfig"; sourceTree = "<group>"; };
 		7C0F717D25D4201500607701 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		7C0F717E25D4201500607701 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7C0F718025D4252300607701 /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		7C48C88825D41647009DCF4E /* OneMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C48C88B25D41647009DCF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C48C88D25D41647009DCF4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				7C48C89425D41648009DCF4E /* Assets.xcassets */,
 				7C48C89625D41648009DCF4E /* LaunchScreen.storyboard */,
 				7C48C89925D41648009DCF4E /* Info.plist */,
+				7C0F718025D4252300607701 /* readme */,
 			);
 			path = OneMore;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0F718125D4252300607701 /* readme in Resources */,
 				7C48C89825D41648009DCF4E /* LaunchScreen.storyboard in Resources */,
 				7C48C89525D41648009DCF4E /* Assets.xcassets in Resources */,
 				7C48C89325D41647009DCF4E /* Main.storyboard in Resources */,
