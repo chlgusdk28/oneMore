@@ -1,0 +1,16 @@
+PODS:
+  - TimerControl (1.0.7)
+
+DEPENDENCIES:
+  - TimerControl
+
+SPEC REPOS:
+  trunk:
+    - TimerControl
+
+SPEC CHECKSUMS:
+  TimerControl: 120e1ad426796619e576461ccf2c2e2030d2bf0a
+
+PODFILE CHECKSUM: 37a94c9818e74bc7297424b97b6395ef4edae97b
+
+COCOAPODS: 1.10.1
